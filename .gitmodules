@@ -1,0 +1,3 @@
+[submodule "external/GC_REL_Patcher"]
+	path = external/GC_REL_Patcher
+	url = https://github.com/bobjrsenior/GC_REL_Patcher
