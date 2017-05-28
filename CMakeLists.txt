@@ -47,7 +47,7 @@ include_directories(${PYTHON_INCLUDE_DIRS})
 # Binding uses boost-python
 if(APPLE)
     # Warning about installing boost-python with Homebrew on macOS
-    message("NOTE: If you need install boost-python using homebrew, make sure you use brew install \"boost-python --with-python3\"")
+    message("NOTE: If you need to install boost-python using homebrew, make sure you use brew install \"boost-python --with-python3\"")
 endif(APPLE)
 
 find_package(Boost COMPONENTS python3 REQUIRED)

@@ -13,7 +13,7 @@ relFile.writeToSectionU32(1, 32, 0xDEADBEEF)
 relFile.writeToSectionU16(1, 36, 0xDEAD)
 relFile.writeToSectionU8(1, 38, 0xBE)
 
-#Section ID checks
+# Section ID checks
 relFile.writeToSectionU32(0, 32, 0xDEADBEEF)
 # relFile.writeToSectionU32(-1, 32, 0xDEADBEEF)
 relFile.writeToSectionU32(0xFFFFFFFF, 32, 0xDEADBEEF)
